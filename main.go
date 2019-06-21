@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/mrtwenty/util/util"
+	"github.com/mrtwenty/util/v2/util"
 )
 
 func main(){
@@ -10,4 +10,5 @@ func main(){
 	fmt.Println(util.MD5("123456"))
 	fmt.Println(util.SHA1("123456"))
 	fmt.Println(util.PasswordHash("123456"))
+	fmt.Println(util.Date("Y-m-d H:i:s",util.Time()))
 }
